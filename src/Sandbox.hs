@@ -1,3 +1,3 @@
 module Sandbox where
 
-hello = "Hello World!"
+test = "Hello World!"
