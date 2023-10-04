@@ -11,8 +11,8 @@ _DISPLAY_LOGO_ :: Bool
 _DISPLAY_LOGO_ = True
 
 -- Q#03
-
-convertRowIndex = undefined
+convertRowIndex :: Char -> Int
+convertRowIndex rowIndex = fromEnum (toUpper rowIndex) -65
 
 -- Q#04
 
