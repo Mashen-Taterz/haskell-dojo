@@ -15,13 +15,12 @@ convertRowIndex :: Char -> Int
 convertRowIndex rowIndex = fromEnum (toUpper rowIndex) -65
 
 -- Q#04
-
 _INVALID_MOVE_ :: (Int , Int)
 _INVALID_MOVE_ = (-1 , -1)
 
 -- Q#05
-
-_SEP_ = undefined
+_SEP_ :: [[Char]] -- [String]
+_SEP_ = ["_", "|", "_"]
 
 -- Q#06
 
