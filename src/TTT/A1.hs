@@ -16,7 +16,8 @@ convertRowIndex rowIndex = fromEnum (toUpper rowIndex) -65
 
 -- Q#04
 
-_INVALID_MOVE_ = undefined
+_INVALID_MOVE_ :: (Int , Int)
+_INVALID_MOVE_ = (-1 , -1)
 
 -- Q#05
 
