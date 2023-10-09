@@ -25,13 +25,21 @@ _SEP_ = ["_", "|", "_"]
 -- Q#06
 data Square = X 
             | O 
-            | 
+            | Empty
 
 -- Q#07
 
-data GameState
+data GameState = InProgress
+                |XWon
+                |OWon
+                |TieGame
 
 -- Q#08
+type Player = Square
+type Row = [Square]
+type Line = [Square]
+type Board = [Row]
+type Move = (Int, Int)
 
 -- Q#09
 
