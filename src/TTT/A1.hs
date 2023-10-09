@@ -23,8 +23,9 @@ _SEP_ :: [[Char]] -- [String]
 _SEP_ = ["_", "|", "_"]
 
 -- Q#06
-
-data Square
+data Square = X 
+            | O 
+            | 
 
 -- Q#07
 
